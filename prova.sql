@@ -29,7 +29,11 @@ SELECT AVG(quantidade_paginas)
 FROM Livros;
 
 
-SELECT 
+SELECT * FROM Livros
+ORDER BY ano_publicacao DESC;
+
+SELECT * FROM Livros
+WHERE titulo LIKE 'S%' AND ano_publicacao BETWEEN 1970 AND 1990;
 
 
 
